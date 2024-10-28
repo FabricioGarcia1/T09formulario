@@ -1,0 +1,70 @@
+input[type="text"]{
+    width: 15%;
+    padding: 15px;
+    background-color: rgb(56, 55, 52);
+    transition: width 0.5s ease;
+}
+
+input[type="password"]{
+    width: 30%;
+    padding: 20px;
+    border: 2px solid rgb(61, 248, 248);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:30px;
+}
+input[type="text"]:focus,input[type="text"]:hover{
+    width: 50%;
+}
+
+.ubicacion{
+    width: 640px;
+    height: auto;
+    background-color:#3c3838;
+    padding: 10px;
+    margin: auto auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 5px #1f0202;
+    text-align: center;
+}
+
+.formulario{
+    width: 100%;
+    height: 650px;
+    text-align: center;
+    background-color: #bfc9be;
+}
+.mapas{
+    width: 100%;
+    height: 650px;
+    text-align: center;
+    background-color: #b9b4b7;
+    padding: 5px;
+}
+.tablas{
+    width: 100%;
+    height: 650px;
+    text-align: center;
+    background-color: #9880ad7a;
+    padding: 5px;
+}
+
+.tablas01{
+    width: 640px;
+    height: auto;
+    background-color:#9b5252;
+    padding: 10px;
+    margin: auto auto;
+    box-shadow: 2px 2px 5px #000000;
+    border:2px solid #000000;
+    text-align: center;
+}
+
+table,tr,th,td{
+    border: 2px solid #000000;
+    border-collapse:collapse ;
+}
+
